@@ -2,7 +2,8 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://your-netease-api.example.com/:match*"
+      "destination": "https://your-netease-api.example.com/:match*",
+      "realIP": /song/url?id=191254&realIP=116.25.146.177
     }
   ]
 }
